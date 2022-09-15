@@ -1,0 +1,536 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+/* 
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+} */
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  /* color: rgba(255, 255, 255, .5); */
+  color: #FF579F;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #fff;
+  color: #fff;
+  
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  /* border-bottom-color: #fff; */
+}
+
+
+
+
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+
+.one{
+  top: 0px;
+  left: 0px;
+  /* width: 1920px; */
+  /* height: 6015px; */
+  background: transparent radial-gradient(closest-side at 50% 50%, var(--unnamed-color-f0e6ef) 0%, #CCFECB 100%) 0% 0% no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 50% 50%, #F0E6EF 0%, #CCFECB 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* .lien{
+  border-right:1px solid ;
+  
+} */
+
+.pied{
+  display: flex;
+  top: 5419px;
+  left: 0px;
+  /* height: 387px; */
+  background: #FDCEBC 0% 0% no-repeat padding-box;
+  opacity: 1;
+  align-items: center;
+  justify-content: center;
+  color: #6622CC;
+}
+
+footer{
+  font-size: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 15px/19px Montserrat;
+color: var(--unnamed-color-6622cc);
+text-align: left;
+font-size: normal normal bold 15px/19px Montserrat;
+letter-spacing: 0.75px;
+color: #6622CC;
+opacity: 1;
+font-family: 'Montserrat', sans-serif;
+}
+
+.footer_section{
+  display: flex;
+    align-items: center;
+    text-align: left;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+letter-spacing: 0.75px;
+
+}
+
+.footer_section>.nav-item{
+  color: #6622CC !important;
+}
+
+.footer-presentation{
+  font-family: 'Montserrat', sans-serif;
+ 
+
+text-align: left;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 2.5px;
+color: #6622CC;
+opacity: 1;
+}
+
+.nav-link{
+  color: #6622CC;
+}
+
+.COPYRIGHT{
+  
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 15px/19px Montserrat;
+color: var(--unnamed-color-6622cc);
+text-align: center;
+font: normal normal bold 15px/19px Montserrat;
+letter-spacing: 3px;
+color: #6622CC;
+text-transform: uppercase;
+opacity: 1;
+font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+.card{
+  height: 752px;
+} */
+.part_a{
+  /* top: 1072px;
+left: 180px; */
+/* width: 780px; */
+/* height: 525px; */
+/* UI Properties */
+background: #eed6d9 0% 0% ;
+box-shadow: 0px 3px 6px #00000029;
+/* opacity: 0.1; */
+}
+
+/* .part_b{
+  top: 1072px;
+left: 960px;
+width: 780px;
+height: 752px;
+background-size: contain;
+opacity: 1;
+} */
+
+
+.inscription{
+  padding: 15px;
+background: #FF579F 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 36px;
+
+outline: none;
+border: none;
+font-family: 'Montserrat', sans-serif;
+
+text-align: center;
+font:  22px/27px ;
+font-weight: bold;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+
+.titre{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 60px/90px var(--unnamed-font-family-poppins);
+color: var(--unnamed-color-ff579f);
+text-align: center;
+font-size:  60px ;
+font-weight: bold;
+letter-spacing: 1.74px;
+color: #FF579F;
+opacity: 1;
+font-family: 'Poppins', sans-serif;
+}
+
+.titre_texte{
+  margin-bottom: 50px;
+text-align: center;
+font-size: 50px;
+letter-spacing: 0px;
+color: #FF579F;
+opacity: 1;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.barre{
+
+  border: 2px solid var(--unnamed-color-ff579f);
+border: 2px solid #FF579F;
+opacity: 1;
+width: 615px;
+margin: 0 auto;
+}
+
+.desc{
+  margin-top: 40px;
+  margin-bottom: 60px;
+text-align: center;
+font-size:28px;
+letter-spacing: 0px;
+color: #6622CC;
+opacity: 1;
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+}
+
+
+.article-titre{
+ padding-top: 70px;
+ padding-left: 20px;
+text-align: left;
+font-size: 35px;
+letter-spacing: 0px;
+color: #FF579F;
+opacity: 1;
+font-family: 'Poppins', sans-serif;
+font-weight:bold ;
+}
+
+
+.article_texte{
+  padding-top: 50px;
+  padding: 20px;
+  text-align: left;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 0px;
+color: #6622CC;
+opacity: 1;
+}
+
+
+.article_button{
+  padding: 10px;
+  background: #FF579F 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 36px;
+opacity: 1;
+border: none;
+color: #fff;
+text-align: center;
+font-size:16px;
+letter-spacing: 0px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+opacity: 1;
+display: flex;
+    margin-left: 25px;
+    margin:30px;
+}
+
+.last_button{
+  padding: 300px;
+}
+
+button:hover{
+  color: #FF579F;
+  border:1px solid #fff;
+  background: transparent radial-gradient(closest-side at 50% 50%, #F0E6EF 0%, #CCFECB 100%) 0% 0% no-repeat padding-box;
+
+}
+
+
+@media screen and (max-width: 992px) {
+  .footer-presentation{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer_sec1{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .titre_texte{
+    font-size: 25px;
+  }
+
+
+  .last_button{
+    padding:  10px;
+  }
+  
+
+  .barre{
+    border: 2px solid var(--unnamed-color-ff579f);
+  border: 2px solid #FF579F;
+  opacity: 1;
+  width: 200px;
+  margin: 0 auto;
+  }
+
+
+  footer{
+    display: flex !important;
+    flex-direction: column;
+    
+  }
+
+
+
+}
+
+
+
+/*  ZONE MODAL */
+
+
+.form_part_one{
+  padding: 35px;
+}
+
+.title_part_one{
+
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;  
+font-size: 19px;
+letter-spacing: 3.2px;
+color: #FF579F;
+opacity: 1;
+
+}
+
+
+.text_part_one{
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;  
+font-size: 16px;
+letter-spacing: 2.2px;
+color: #6622CC;
+opacity: 1;
+}
+
+.section{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.modal-content{
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none !important;
+}
+
+.modal-backdrop.fade.show{
+  display:none;
+}
+
+
+
+.modal {
+  box-shadow: none !important;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0 0 0 / 5%); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+
+.modal-open {
+  overflow: scroll;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.form_part_one{
+  background: #DFF8DF 0% 0% no-repeat padding-box;
+opacity: 1;
+display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form_part_two{
+  padding: 30px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.validation_form{
+  margin: 20px;
+  background: #FF579F 0% 0% no-repeat padding-box;
+border-radius: 42px;
+font-family: 'Poppins', sans-serif;
+font-weight: 900; 
+border: none;
+text-align: center;
+font-size: 16px;
+letter-spacing: 2.2px;
+color: #FFFFFF;
+opacity: 1;
+padding: 10px;
+}
+
+.title2{
+  margin-top: 25px;
+}
+
+.formulaire{
+  text-align: left;
+}
+
+.form{
+  margin-top: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Close Button */
+.close {
+  margin-top: -22px;
+  color: #292828;;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.formulaire>h4{
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; 
+  font-weight: 900;
+font-size: 19px;
+letter-spacing: 2.2px;
+color: #161616;
+opacity: 1;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  /* width:400px; */
+  padding: 10px;
+}
+#fname{
+  width:400px;
+ 
+}
+form{
+  margin-top: 20px;
+}
+
+
+
+.condition_form{
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+font-size: 9px;
+letter-spacing: 0.6px;
+color: #161616;
+opacity: 1;
+}
+
+
+/* FIN  ZONE MODAL */
